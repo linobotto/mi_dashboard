@@ -1,0 +1,5 @@
+.dashboard-section-header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--dashboard-space-4); margin-bottom: var(--dashboard-space-4); }
+.dashboard-section-actions { display: flex; flex-wrap: wrap; gap: var(--dashboard-space-2); }
+.dashboard-section-actions { min-width: 0; max-width: 100%; }
+.dashboard-section-actions .ant-btn { max-width: 100%; height: auto; min-height: 24px; }
+.dashboard-section-actions .ant-btn > span:not(.ant-btn-icon) { white-space: normal; }

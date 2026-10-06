@@ -1,0 +1,8 @@
+.dashboard-surface.ant-card { min-width: 0; background: var(--dashboard-surface); color: var(--dashboard-text); border-radius: var(--dashboard-radius); }
+.dashboard-surface-metric { width: 100%; }
+.dashboard-surface-centered { text-align: center; }
+.dashboard-surface-full { height: 100%; }
+.dashboard-surface-table { box-shadow: var(--dashboard-shadow); }
+.dashboard-surface-table > .ant-card-body { padding: 20px; }
+.dashboard-surface-metric .ant-btn { max-width: 100%; height: auto; min-height: 32px; }
+.dashboard-surface-metric .ant-btn > span:not(.ant-btn-icon) { white-space: normal; }

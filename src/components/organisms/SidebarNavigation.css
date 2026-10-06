@@ -1,0 +1,2 @@
+.dashboard-sidebar.ant-layout-sider { position: fixed; inset: 0 auto 0 0; height: 100vh; overflow-y: auto; z-index: 1; }
+.dashboard-brand { height: 64px; display: flex; align-items: center; justify-content: center; }

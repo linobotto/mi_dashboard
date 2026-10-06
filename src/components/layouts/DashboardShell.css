@@ -1,0 +1,3 @@
+.dashboard-shell.ant-layout { min-height: 100vh; }
+.dashboard-shell-body.ant-layout { margin-left: var(--dashboard-sidebar-width); min-width: 0; }
+.dashboard-content.ant-layout-content { padding: var(--dashboard-space-6); min-width: 0; }

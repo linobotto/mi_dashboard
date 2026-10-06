@@ -1,0 +1,22 @@
+:root {
+  --dashboard-space-1: 4px;
+  --dashboard-space-2: 8px;
+  --dashboard-space-3: 12px;
+  --dashboard-space-4: 16px;
+  --dashboard-space-6: 24px;
+  --dashboard-radius: 8px;
+  --dashboard-surface: #fff;
+  --dashboard-text: #141414;
+  --dashboard-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --dashboard-sidebar-width: 200px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dashboard-surface: #141414;
+    --dashboard-text: #f0f0f0;
+    --dashboard-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+}
+.dashboard-grid > .ant-col { display: flex; min-width: 0; }
+.dashboard-orders { margin-top: var(--dashboard-space-6); }
+.dashboard-metric-description { margin: var(--dashboard-space-3) 0 var(--dashboard-space-4); }
